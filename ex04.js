@@ -2,6 +2,7 @@
 
 var http = require('http');
 var fileSystem = require('fs');
+var port = 3000;
 
 http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
@@ -18,6 +19,6 @@ http.createServer(function (request, response) {
         response.end();
     }
 
-}).listen(3000);
+}).listen(port);
 
-console.log('Server started');
+console.log('Server started on port '+port);
