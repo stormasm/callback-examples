@@ -12,11 +12,15 @@ var requestListener = function (request, response) {
     read_stream.on('close', closeCallback);
 
     function writeCallback(data){
+        console.log('part1')
         response.write(data);
     }
 
     function closeCallback(){
+        console.log('part2')
         response.end();
+
+    console.log('part3')
     }
 }
 
