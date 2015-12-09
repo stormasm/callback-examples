@@ -9,7 +9,6 @@ var usingItNow = function(callback) {
 usingItNow(myCallback);
 
 // http://stackoverflow.com/questions/13286233/pass-a-javascript-function-as-parameter
-
 function addContact(id, refreshCallback) {
     refreshCallback();
     // You can also pass arguments if you need to
