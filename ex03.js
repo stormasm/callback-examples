@@ -18,7 +18,7 @@ value = totalSelectValues(values, function(value) { return value % 2 !== 0});
 console.log(value)
 
 // greater than 5
-totalSelectValues(values, function(value) { return value > 5 });
+value = totalSelectValues(values, function(value) { return value > 5 });
 console.log(value)
 
 // We also need to make sure our little function works perfectly even if the second argument is not send.
