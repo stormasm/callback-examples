@@ -1,9 +1,9 @@
 var myCallback = function(data) {
-  console.log('part one : '+data);
+    console.log('part one : ' + data);
 };
 
 var usingItNow = function(callback) {
-  callback('part two...');
+    callback('part two...');
 };
 
 usingItNow(myCallback);
@@ -15,8 +15,11 @@ function addContact(id, refreshCallback) {
     // refreshCallback(id);
 }
 
-function refreshContactList() {
+function refreshContactList(id) {
     console.log('Hello World');
+    if (typeof id !== 'undefined') {
+        console.log('Your ID = ', id)
+    }
 }
 
 addContact(1, refreshContactList);
