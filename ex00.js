@@ -1,9 +1,9 @@
 var myCallback = function(data) {
-  console.log('got data: '+data);
+  console.log('part one : '+data);
 };
 
 var usingItNow = function(callback) {
-  callback('get it?');
+  callback('part two...');
 };
 
 usingItNow(myCallback);
