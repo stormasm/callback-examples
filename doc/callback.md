@@ -2,6 +2,8 @@
 
 This sums things up in the most simple way:
 
+"A reference to executable code, or a piece of executable code, that is passed as an argument to other code"
+
 https://www.impressivewebs.com/callback-functions-javascript/
 
 http://callbackhell.com/
