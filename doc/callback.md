@@ -1,4 +1,7 @@
 
+
+This sums things up in the most simple way:
+
 https://www.impressivewebs.com/callback-functions-javascript/
 
 http://callbackhell.com/
